@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Micro Brew | Parody M** JavaScript Framework!</title>
+	<meta name="description" content="microbrew, a js framework parody!">
+	<meta name="keywords" content="M**, MC*, MVC, MVVM, JavaScript, Framework, Parody, Micrbrew, Beer, ABV, Funsies">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/prism.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<section>
+	<div class="container">
+		<h1><img src="img/beer-icon.png">MICROBREW<sup>js</sup></h1>
+		<p>A tipsy parody on a JS m** <strong>&mdash;</strong> a microbrew framework... Hiccup!</p>
+		<p class="disclaimer"><span class="special-snowflake">**</span>(no <span class="special-snowflake">mvc</span>/<span class="special-snowflake">mvp</span>/<span class="special-snowflake">mv*</span>/<span class="special-snowflake">mvvm</span> was hurt in the process)</p>
+		<section>
+			<div class="microbrewed">
+				<pre><code class="language-javascript">
+// Simple Microbrew Model/Collection
+// Brew model example
+var Brew = function(dataset) {
+	this.brewName = dataset.brewName;
+	this.brewType = dataset.brewType;
+	this.abv 	  = dataset.abv;
+	this.brewInfo = function() {
+	    return brewName + ': ' + brewType + ': ' + abv;
+	};
+};
+
+// Distillery = collection... Hiccup!
+var Crafts = function() {
+	var distillery = [];
+	return {
+	    addCraft: function(dataset) {
+	    	// Pourin'a new Brew on the fly!
+	        distillery.push(new Brew(dataset));
+	    },
+	    getCraftList: function(id) {
+	    	// Easter egg, show your id, ok bad joke...
+	        return (id === undefined) ? distillery : distillery[id];
+	    }
+	};
+};
+
+var crafts = new Crafts();
+
+crafts.addCraft({
+	brewName: 'Mad Cat 180&deg;',
+	brewType: 'Double IPA',
+	abv:      '18.00%'
+});
+
+crafts.addCraft({
+	brewName: 'Hop Top Shizam',
+	brewType: 'IPA',
+	abv:      '12.50%'
+});
+crafts.addCraft({
+	brewName: 'Cuckoo for Stout',
+	brewType: 'Java Stout',
+	abv:      '7.70%'
+});
+crafts.addCraft({
+	brewName: 'Featherweight Wuss',
+	brewType: 'Light Lager',
+	abv:      '4.20%'
+});
+
+// Test'r out!
+console.log(JSON.stringify(crafts.getCraftList()));
+					</code></pre>
+			</div>	
+		</section>
+	</div>
+</section>
+
+<script src="js/prism.js"></script>
+</body>
+</html>
