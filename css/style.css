@@ -1,5 +1,7 @@
 * {
 	font-size: .95em;
+  transition: all .3s ease-out;
+  transform: translate3d(0, 0, 0);
 }
 
 h1 {
@@ -73,4 +75,14 @@ p {
 
 pre {
 	  border-radius: 5px;
+}
+
+@media (max-width: 50em) {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
 }
