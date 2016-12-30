@@ -27,7 +27,7 @@ const Crafts = () => {
 			// Show some valid id...
 			return valid_id >= 21 ?
 				distillery :
-				: "No 🍺🍺🍺'z' 4 U!!!";
+				"No 🍺🍺🍺'z' 4 U!!!";
 		}
 	};
 };
