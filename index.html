@@ -47,7 +47,9 @@ const Crafts = () => {
         },
         getCraftList(valid_id) {
             // Show some valid id...
-            return valid_id ? distillery : distillery[valid_id];
+            return valid_id >= 21
+							? distillery
+							: : "No 🍺🍺🍺'z' 4 U!!!";
         }
     };
 };
