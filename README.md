@@ -24,7 +24,7 @@ MicrobrewJS uses [SemVer](http://semver.org/) for versioning. For the versions a
 
 ## Author
 
-* **Mark Learst** - *M**'ish Parody* - [MicrobrewJS](https://microbrew.io)
+**Mark Learst** - m\**'ish Parody - [MicrobrewJS](https://microbrew.io)
 
 ## License
 
@@ -35,3 +35,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 * Hat tipped to anyone who enjoys a solid craft beer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## TODO
+
+- [x] Kickstart repo
+- [x] Ideate how to drop the parody
+- [ ] Start to implement changes
+- [ ] Getting v0.0.1-beta complete
