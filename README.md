@@ -1,4 +1,4 @@
-# MicrobrewJS v0.0.3-beta
+# MicrobrewJS v0.0.1-alpha
 
 A tipsy parody on a JS m\*\* — a microbrew framework... Hiccup!
 
