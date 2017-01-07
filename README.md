@@ -24,7 +24,7 @@ MicrobrewJS uses [SemVer](http://semver.org/) for versioning. For the versions a
 
 ## Author
 
-* **Mark Learst** - *Initial Parody* - [MicrobrewJS](https://microbrew.io)
+* **Mark Learst** - *M**'ish Parody* - [MicrobrewJS](https://microbrew.io)
 
 ## License
 
