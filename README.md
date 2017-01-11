@@ -1,4 +1,4 @@
-# MicrobrewJS v0.0.1-alpha
+# MicrobrewJS v0.0.3-alpha
 
 A tipsy parody on a JS m\*\* — a microbrew framework... Hiccup!
 
@@ -40,5 +40,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 - [x] Kickstart repo
 - [x] Ideate how to drop the parody
+- [ ] Need to tag SemVer updates
 - [ ] Start to implement changes
 - [ ] Getting v0.0.1-beta complete
+
+## 
